@@ -37,8 +37,8 @@ prompt_template = ChatPromptTemplate(
 
 
 import app.docs as my_docs
-db = my_docs.load_documentation_db()
-#db = my_docs.create_documentation_db()
+#db = my_docs.load_documentation_db()
+db = my_docs.create_documentation_db()
 import app.llm as my_llm
 llm = my_llm.load_llm()
 
