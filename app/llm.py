@@ -3,7 +3,7 @@ def load_llm():
         from langchain.chat_models import ChatOpenAI
         llm = ChatOpenAI(
             model_name='gpt-3.5-turbo' ,
-            openai_api_key='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',
+            openai_api_key='API KEY GOES HERE',
         )
     else:
         from langchain.llms import LlamaCpp
